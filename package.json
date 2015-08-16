@@ -1,0 +1,25 @@
+{
+  "name": "express-3.x-http-basic-and-digest-example",
+  "version": "0.0.0",
+  "description": "Express 3.x app using Passport for authentication via HTTP Basic and Digest schemes.",
+  "keywords": [
+    "example",
+    "express",
+    "passport"
+  ],
+  "author": "Jared Hanson",
+  "license": "Unlicense",
+  "homepage": "https://github.com/passport/express-3.x-http-basic-and-digest-example",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/passport/express-3.x-http-basic-and-digest-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/passport/express-3.x-http-basic-and-digest-example/issues"
+  },
+  "dependencies": {
+    "express": "^3.21.1",
+    "passport": "^0.2.2",
+    "passport-http": "^0.3.0"
+  }
+}
