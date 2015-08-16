@@ -23,5 +23,11 @@ $ node server.js
 Use `curl` to send an authenticated request using HTTP Basic scheme.
 
 ```bash
-$ curl -v --user jack:secret http://127.0.0.1:3000/
+$ curl -v --user jack:secret --basic http://127.0.0.1:3000/
+```
+
+Use `curl` to send an authenticated request using HTTP Digest scheme.
+
+```bash
+$ curl -v --user jack:secret --digest http://127.0.0.1:3000/
 ```
